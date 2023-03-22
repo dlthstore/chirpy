@@ -114,7 +114,7 @@ commit() {
 
 main() {
   check_env
-  checkout_latest_tag
+  # checkout_latest_tag
   init_files
   commit
 }
